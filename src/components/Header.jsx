@@ -21,7 +21,8 @@ export default function Header() {
     <header className={`header${scrolled ? ' scrolled' : ''}`}>
       <div className="container header-inner">
         <a className="logo" href="#home" onClick={(e) => { e.preventDefault(); go('home') }}>
-          <svg className="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" /><path d="M16 7v18M10 13h12" /></svg>GOD <span>@</span> Campus
+          <img className="logo-img logo-light" src="/logo-white.png" alt="God@Campus" />
+          <img className="logo-img logo-dark" src="/logo.png" alt="" />
         </a>
         <button className={`burger${open ? ' open' : ''}`} onClick={() => setOpen(!open)} aria-label="Menu">
           <i /><i /><i />

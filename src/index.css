@@ -113,3 +113,34 @@ nav a:not(.btn):hover { color: var(--accent); }
 .logo-mark circle { fill: var(--accent); }
 .logo-mark path { stroke: #fff; stroke-width: 3; stroke-linecap: round; fill: none; }
 .logo:hover .logo-mark { transform: rotate(90deg) scale(1.1); }
+
+/* logo image: white over hero, navy once scrolled */
+.logo-img { height: 44px; width: auto; transition: transform .4s var(--ease); }
+.logo-dark { display: none; }
+.scrolled .logo-light { display: none; }
+.scrolled .logo-dark { display: block; }
+.logo:hover .logo-img { transform: scale(1.06); }
+
+/* vision / mission */
+.statement { padding: 110px 0; position: relative; overflow: hidden; }
+.statement .rule { height: 3px; width: 70px; background: var(--accent); margin: 14px 0 28px; transform-origin: left; }
+.statement p { font-family: 'Poppins', sans-serif; font-weight: 500; font-size: clamp(1.4rem, 3vw, 2.2rem); line-height: 1.45; }
+.statement.dark { background: linear-gradient(135deg, #14275f, var(--primary)); color: #fff; }
+.statement.dark::after { content: '\201C'; position: absolute; right: 6%; top: -30px; font-family: Georgia, serif; font-size: 22rem; color: rgba(255,255,255,.06); line-height: 1; }
+.statement.light { background: var(--bg-alt); }
+.statement.light p { color: var(--primary); font-size: clamp(1.15rem, 2.2vw, 1.55rem); font-weight: 400; line-height: 1.7; }
+
+/* goals */
+.goal-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 26px; margin-top: 20px; }
+.goal { position: relative; background: #fff; border-radius: 20px; padding: 34px 30px; box-shadow: 0 4px 24px rgba(20,30,70,.08); border-top: 4px solid transparent; transition: transform .45s var(--ease), box-shadow .45s, border-color .3s; overflow: hidden; }
+.goal:hover { transform: translateY(-10px); box-shadow: 0 22px 46px rgba(20,30,70,.16); border-color: var(--accent); }
+.goal-num { position: absolute; right: 22px; top: 8px; font-family: 'Poppins'; font-weight: 700; font-size: 4.5rem; color: rgba(31,60,136,.07); transition: color .3s, transform .45s var(--ease); }
+.goal:hover .goal-num { color: rgba(243,156,18,.25); transform: scale(1.1); }
+.goal-icon { width: 54px; height: 54px; border-radius: 14px; background: linear-gradient(135deg, var(--primary), #2f5bc4); display: grid; place-items: center; margin-bottom: 20px; transition: transform .45s var(--ease), background .3s; }
+.goal:hover .goal-icon { transform: rotate(-8deg) scale(1.08); background: var(--accent); }
+.goal-icon svg { width: 26px; height: 26px; fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.goal h3 { font-family: 'Poppins'; color: var(--primary); font-size: 1.3rem; margin-bottom: 14px; }
+.goal ul { list-style: none; }
+.goal li { position: relative; padding: 6px 0 6px 22px; color: var(--muted); transition: color .25s, transform .25s; }
+.goal li::before { content: ''; position: absolute; left: 0; top: 15px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.goal li:hover { color: var(--ink); transform: translateX(4px); }
