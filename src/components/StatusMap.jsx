@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { animate, useInView } from 'framer-motion'
 import Reveal from './Reveal.jsx'
 import { STATUS } from '../data/content.js'

@@ -1,4 +1,4 @@
-﻿import Header from './components/Header.jsx'
+import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Section from './components/Section.jsx'
 import StatusMap from './components/StatusMap.jsx'

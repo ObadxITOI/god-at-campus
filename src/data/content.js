@@ -1,4 +1,4 @@
-﻿// Central place for site content. Replace placeholder text (Vision/Mission/Goals)
+// Central place for site content. Replace placeholder text (Vision/Mission/Goals)
 // and the status figures here; later these can be fed from an API.
 export const SIGNUP_URL = 'https://godatcampus.inheritinitiative.org/'
 export const CONTACT_EMAIL = 'contact@godatcampus.org'

@@ -1,4 +1,4 @@
-﻿import Reveal from './Reveal.jsx'
+import Reveal from './Reveal.jsx'
 
 export default function Section({ id, eyebrow, title, alt, children }) {
   return (

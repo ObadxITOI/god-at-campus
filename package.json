@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "god-campus",
     "private":  true,
     "version":  "0.0.0",
@@ -16,5 +16,8 @@
                          "framer-motion":  "^14.5.0",
                          "react":  "^19.3.1",
                          "react-dom":  "^19.3.1"
-                     }
+                     },
+    "engines":  {
+                    "node":  "\u003e=20.19.0"
+                }
 }

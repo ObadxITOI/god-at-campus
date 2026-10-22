@@ -1,4 +1,4 @@
-﻿import { CONTACT_EMAIL } from '../data/content.js'
+import { CONTACT_EMAIL } from '../data/content.js'
 
 export default function Footer() {
   return (

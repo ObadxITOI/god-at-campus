@@ -1,4 +1,4 @@
-﻿import { motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { HERO, SIGNUP_URL } from '../data/content.js'
 
 const up = (d) => ({

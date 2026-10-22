@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NAV, SIGNUP_URL } from '../data/content.js'
 
 export default function Header() {
