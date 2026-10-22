@@ -55,7 +55,6 @@ export default function StatusMap() {
             <div className="stat">
               <strong><Counter to={STATUS.colleges} /></strong>
               <span>Colleges in India</span>
-              <small>Exact number updates periodically</small>
             </div>
             <ul className="pin-list">
               {STATUS.pins.map((p) => (
