@@ -19,25 +19,45 @@ export const HERO = {
     'God@Campus is an initiative to actively engage with the next generation while they are in the college.',
 }
 
-export const VISION = 'Transformed students impact their fellow students to disciple nations.'
+export const VISION = 'Transforming students to transform nations.'
 export const MISSION =
-  'The God@Campus initiative actively shares the Gospel among post-matric students and equips them to be disciples of the Lord Jesus Christ, to disciple their fellow students, so as to be a blessing to their local church and society.'
+  'The God@Campus initiative seeks to actively share the Gospel with students, equip them to become disciples of the Lord Jesus Christ, who in turn disciple their fellow students and become a blessing to the Church and society.'
 
 export const GOALS = [
   {
     title: 'Evangelistic Efforts',
     icon: 'spark',
-    items: ['Retreats', 'Camps', 'Personal evangelism', 'Literature distribution', 'Creative programs like coaching, counselling and career guidance'],
+    description:
+      'To introduce students to the Gospel and create opportunities to encounter the love and truth of Jesus Christ.',
+    items: [
+      { label: 'Evangelistic Retreats and Camps', text: 'Organize retreats and camps to share the Gospel and encourage students to explore faith in Christ.' },
+      { label: 'Personal Evangelism', text: 'Equip and encourage students to share the Gospel with their peers.' },
+      { label: 'Student Support and Outreach Programs', text: "Conduct creative and need-based initiatives such as coaching, counselling, and career guidance to support students' personal, academic, and emotional development while building meaningful relationships." },
+    ],
   },
   {
     title: 'Discipleship Efforts',
     icon: 'book',
-    items: ['Bible study', 'Retreats & camps', 'Special training like apologetics, religious studies, etc.'],
+    description:
+      'To nurture students in their faith, develop Christ like character, and equip them to disciple others.',
+    items: [
+      { label: 'Bible Studies', text: "Conduct regular Bible studies to help students understand God's Word and apply biblical principles in their lives." },
+      { label: 'Discipleship Retreats and Camps', text: 'Organize retreats and camps for spiritual growth, fellowship, and deeper commitment to Christ.' },
+      { label: 'Specialized Training', text: "Provide training in apologetics, comparative religious studies, and other relevant subjects to strengthen students' faith and prepare them to engage thoughtfully with others." },
+      { label: 'Peer Discipleship', text: 'Equip students to mentor, encourage, and disciple their fellow students.' },
+    ],
   },
   {
-    title: 'Mission Efforts',
+    title: 'Missions Efforts',
     icon: 'globe',
-    items: ['Sharing information about needs and opportunities', 'Exposure to active evangelism', 'Facilitating involvement in mission'],
+    description:
+      "To develop a mission-minded generation of students who actively participate in God's mission locally and globally.",
+    items: [
+      { label: 'Missions Information and Awareness', text: 'Share information about mission needs, opportunities, and the work of Christian ministries.' },
+      { label: 'Mission Exposure', text: 'Provide opportunities for students to participate in practical evangelism and experience mission work firsthand.' },
+      { label: 'Missions Mobilization', text: "Facilitate students' involvement in mission initiatives by connecting them with relevant opportunities, organizations, and experienced workers." },
+      { label: 'Mission Commitment', text: "Encourage students to discover their role in God's mission and use their gifts, skills, and resources to serve others." },
+    ],
   },
 ]
 export const STATUS = {

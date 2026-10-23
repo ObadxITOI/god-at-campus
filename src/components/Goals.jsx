@@ -36,9 +36,12 @@ export default function Goals() {
                 <svg viewBox="0 0 24 24" aria-hidden="true">{ICONS[g.icon]}</svg>
               </div>
               <h3>{g.title}</h3>
+              <p className="goal-desc">{g.description}</p>
               <ul>
                 {g.items.map((it) => (
-                  <li key={it}>{it}</li>
+                  <li key={it.label}>
+                    <strong>{it.label}:</strong> {it.text}
+                  </li>
                 ))}
               </ul>
             </motion.article>
